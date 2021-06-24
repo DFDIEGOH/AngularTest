@@ -9,6 +9,8 @@ import { TestBed } from '@angular/core/testing';
 
 export class AppComponent {
   test() {
+    let eventDescription = true;
+    console.log(eventDescription);
     console.log("Entra");
   }
   title = 'angular-tour-of-heroes';
